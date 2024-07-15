@@ -1,0 +1,88 @@
+.App{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.drop-down{
+    background-color: #181818;
+    width: 300px;
+    height: 60px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    margin-bottom: 40px;
+  }
+  .drop-down-cabin{
+    background-color: #1C2519;
+    width: 300px;
+    height: 60px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+  }
+  .drop-down label{
+    color: white;
+    text-align: left;
+    font-size: 9px;
+  }
+  .drop-down-cabin label{
+    color: white;
+    text-align: left;
+    font-size: 9px;
+  }
+  .drop-down select{
+    background-color: #181818;
+    border: none;
+    color: white;
+  }
+  .drop-down-cabin select{
+    background-color: #1C2519;
+    border: none;
+    color: white;
+  }
+
+  .btn{
+      width: 80px;
+      line-height: 20px;
+      padding: 5px;
+      border-radius: 6px;
+      color: white;
+      background-color: #38B8A6;
+      border: none;
+  }
+
+  .results{
+      display: flex;
+      column-gap: 20px;
+      color: #D6D3BE;
+  }
+  .result{
+      margin-top: 40px;
+      background-color: #1A4D2F;
+      height: 350px;
+      width: 200px;
+      border-radius: 10px;
+      text-align: center;
+      padding:  20px;
+      font-weight: 900;
+
+      row-gap: 2px;
+  }
+  .font{
+      font-size: 10px;
+  }
+  .date{
+    font-size: 12px;
+  }
+p{
+  margin: 8px;
+}
